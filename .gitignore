@@ -1,0 +1,13 @@
+
+###> symfony/framework-bundle ###
+/.env
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+### BDD Dev Docker ###
+/mysql/
+
+### PHPStorm
+/.idea/
