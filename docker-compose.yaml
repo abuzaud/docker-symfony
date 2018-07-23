@@ -21,6 +21,9 @@ services:
         image: mysql:5.7
         environment:
             MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+        # Mapping de port pour se connecter à la db depuis l'extérieur du container
+        ports:
+            - 3306:3306
 
         # Permet de conserver les bases de données dans le dossier mysql de la racine
         volumes:
